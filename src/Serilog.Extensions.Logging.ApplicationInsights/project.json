@@ -1,0 +1,38 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "description": "Add application insights logging to ASP.NET Core apps with one line of code.",
+  "authors": [ "Michael Denny" ],
+
+  "packOptions": {
+    "tags": [ "serilog", "asp.net", "core", "logging", "applicationinsights", "ai", "azure", "application", "insights" ],
+    "projectUrl": "https://github.com/micdenny/serilog-extensions-logging-applicationinsights",
+    "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
+    "iconUrl": "http://serilog.net/images/serilog-extension-nuget.png"
+  },
+
+  "dependencies": {
+    "Microsoft.Extensions.Configuration.Abstractions": "1.0.0",
+    "Microsoft.Extensions.Logging.Abstractions": "1.0.0",
+    "Serilog.Extensions.Logging": "1.3.1",
+    "Serilog.Formatting.Compact": "1.0.0",
+    "Serilog.Sinks.ApplicationInsights": "2.1.0"
+  },
+
+  "buildOptions": {
+    "xmlDoc": true,
+    "warningsAsErrors": true
+  },
+
+  "frameworks": {
+    "net4.5": {},
+    "netstandard1.3": {
+      "dependencies": {
+        "System.Runtime.InteropServices": "4.1.0"
+      },
+      "imports": [
+        "dotnet5.4"
+      ]
+    }
+  }
+}

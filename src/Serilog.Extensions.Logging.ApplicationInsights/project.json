@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.0-*",
+  "version": "0.1.0-*",
 
   "description": "Add application insights logging to ASP.NET Core apps with one line of code.",
   "authors": [ "Michael Denny" ],

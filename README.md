@@ -1,5 +1,7 @@
 # Serilog.Extensions.Logging.ApplicationInsights
 
+[![Build status](https://ci.appveyor.com/api/projects/status/angsadhka3d87uv9/branch/master?svg=true)](https://ci.appveyor.com/project/micdenny/serilog-extensions-logging-applicationinsights/branch/master) [![NuGet Version](http://img.shields.io/nuget/v/Serilog.Extensions.Logging.ApplicationInsights.svg?style=flat)](https://www.nuget.org/packages/Serilog.Extensions.Logging.ApplicationInsights/)
+
 This package makes it a one-liner - `loggerFactory.AddApplicationInsights()` - to configure top-quality application insights logging for ASP.NET Core apps.
 
 You can get started quickly with this package, and later migrate to the full Serilog API if you need more sophisticated log configuration.

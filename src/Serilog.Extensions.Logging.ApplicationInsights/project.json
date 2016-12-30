@@ -1,8 +1,8 @@
 ﻿{
-  "version": "0.1.0-*",
+  "version": "1.0.0-*",
 
   "description": "Add application insights logging to ASP.NET Core apps with one line of code.",
-  "authors": [ "Michael Denny" ],
+  "authors": [ "Michael Denny", "Serilog Contributors" ],
 
   "packOptions": {
     "tags": [ "serilog", "asp.net", "core", "logging", "applicationinsights", "ai", "azure", "application", "insights" ],

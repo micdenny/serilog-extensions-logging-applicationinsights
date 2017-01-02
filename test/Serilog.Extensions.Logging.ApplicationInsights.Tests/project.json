@@ -8,7 +8,8 @@
   },
 
   "buildOptions": {
-    "warningsAsErrors": true
+    "warningsAsErrors": true,
+    "keyFile": "../../assets/Serilog.snk"
   },
 
   "frameworks": {
